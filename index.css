@@ -1,0 +1,62 @@
+:root{
+    --base: #663366;
+    --spacing: 0px;
+    --blur: 10px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+
+    text-align: center;
+    margin: auto;
+    background-color: powderblue;
+    
+    
+
+}
+h1{
+    text-align: center;
+    font-family: Georgia;
+}
+.search{
+    border: 2px solid SlateBlue;
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsla(9, 100%, 64%, 0.5);
+    
+
+    width: 50%;
+    height: 50px;
+
+    padding: 20px;
+    margin-bottom: 42px;
+
+    font-size: 20px;
+ 
+
+}
+
+
+input{
+    outline: none;
+    text-align: center;
+    margin: auto;
+    padding: 0 6px;
+    border-style: solid ;
+    border-color: orangered;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+    border: 2px solid SlateBlue;
+    border-radius: 20px;
+    text-align: center;
+ 
+
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+
+}
