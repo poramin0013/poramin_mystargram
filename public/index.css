@@ -1,65 +1,48 @@
-
-:root{
-    --base: #663366;
-    --spacing: 0px;
-    --blur: 0px;
-}
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-
-    text-align: center;
-    margin: auto;
-    background-color: powderblue;
-    
-    
-
+ box-sizing: border-box;
 }
 h1{
     text-align: center;
-    font-family: Georgia;
 }
-.search{
-    border: 2px solid SlateBlue;
-    border-radius: 20px;
+body {
+    background-color:rgb(255, 255, 255);
+    font-family: 'Lemonada', cursive;
+}
+
+h1 {
+    color:#2D191A  ;
+}
+.search   {
     text-align: center;
-    background-color: hsla(9, 100%, 64%, 0.5);
+
+    display: block;
+    width: 20%;
+    padding: 10px;
+    font-size: 17px;
+   
     
-
-    width: 50%;
-    height: 50px;
-
-    padding: 20px;
-    margin-bottom: 42px;
-
-    font-size: 20px;
- 
-
+border-radius:20px  ;
+margin:auto;
 }
 
+   
 
-input{
-    outline: none;
+.gallery{
     text-align: center;
-    margin: auto;
-    padding: 0 6px;
-    border-style: solid ;
-    border-color: orangered;
+   
+
 }
-
-img{
-    width: 400px;
-    height: 250px;
-    border: 2px solid SlateBlue;
-    border-radius: 20px;
-    text-align: center;
+.gallery img{
+    margin:auto;
+    border: 5px solid #2D191A;
+    padding: 10px;
     padding: var(--spacing);
-    filter: blur(var(--bulr));
-    background-color: var(--base);
-
+    background: var(--base);
+    filter: blur(var(--blur));
+    
 }
-
-
+:root{
+    --base:#2D191A5;
+    --spacing:0px;
+    --blur:10px;  
+}
